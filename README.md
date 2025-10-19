@@ -41,4 +41,4 @@ console.log(test.get('apple')); // Output: red
 
 The following image illustrates the internal structure of the HashMap:
 
-![HashMap Illustration](5278debb9b.png)
+![HashMap Illustration](jpeg.jfif)
