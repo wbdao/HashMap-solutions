@@ -1,37 +1,44 @@
-
 # HashMap & HashSet Implementation in JavaScript
 
-This project implements a custom `HashMap` and `HashSet` in JavaScript, mimicking the behavior of native hash-based data structures. It includes full support for collision handling, dynamic resizing, and all standard operations.
+This project implements a custom `HashMap` and `HashSet` in JavaScript, mimicking the behavior of built-in hash maps.
 
-## 📁 Files
-- `hashmap.js`: Contains the implementation of `HashMap` and `HashSet` classes.
-- `main.js`: Contains test cases and usage examples for the `HashMap` class.
+## Features
 
-## 🚀 Features
 ### HashMap
 - `set(key, value)`: Adds or updates a key-value pair.
 - `get(key)`: Retrieves the value for a given key.
 - `has(key)`: Checks if a key exists.
-- `remove(key)`: Deletes a key-value pair.
+- `remove(key)`: Removes a key-value pair.
 - `length()`: Returns the number of stored keys.
 - `clear()`: Clears all entries.
-- `keys()`: Returns an array of all keys.
-- `values()`: Returns an array of all values.
-- `entries()`: Returns an array of key-value pairs.
+- `keys()`: Returns all keys.
+- `values()`: Returns all values.
+- `entries()`: Returns all key-value pairs.
 
 ### HashSet
 - `add(key)`: Adds a key.
 - `has(key)`: Checks if a key exists.
-- `remove(key)`: Deletes a key.
+- `remove(key)`: Removes a key.
 - `clear()`: Clears all keys.
 - `values()`: Returns all keys.
 - `size()`: Returns the number of keys.
 
-## 🧪 Usage
-```javascript
-const { HashMap } = require('./hashmap');
-const test = new HashMap();
+## Usage
 
+1. Include `hashmap.js` and `main.js` in your project.
+2. Run `main.js` to test the functionality of the HashMap.
+
+## Example
+
+```javascript
+const test = new HashMap();
 test.set('apple', 'red');
 test.set('banana', 'yellow');
 console.log(test.get('apple')); // Output: red
+```
+
+## Illustration
+
+The following image illustrates the internal structure of the HashMap:
+
+![HashMap Illustration](5278debb9b.png)
